@@ -3,3 +3,4 @@ def area(a, b):
     return result
 
 print(area(3, 4))
+print(area(10, 5))
