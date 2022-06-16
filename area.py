@@ -1,4 +1,4 @@
-def area(a, b)
+def area(a, b):
     result = a * b
     return result
 
