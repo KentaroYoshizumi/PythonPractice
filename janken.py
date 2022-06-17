@@ -29,5 +29,5 @@ elif com == 2:
 te = ["グー", "チョキ", "パー"]        
         
 print(f"コンピュータ: + {te[com]}")
-print(f"あなた: + {te[com]}")
+print(f"あなた: + {te[you]}")
 print(f"あなたの{result}")
