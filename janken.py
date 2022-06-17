@@ -18,7 +18,7 @@ elif com == 1:
         result = "あいこ"
     else:
         result = "負け"
-elif com == 2:
+else:
     if you == 0:
         result = "負け"
     elif you == 1:
