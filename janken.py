@@ -4,12 +4,16 @@
 com = 0
 you = 1
 
+result = ["あいこ", "勝ち", "負け"]
+#r = (com - you  + 3)%3
+
 if com == you:
     result = "あいこ"
 elif com == (you + 1) % 3:
     result = "勝ち"
 else:
     result = "負け"
+
 #elif com == 0 && you == 2　or \
 #     com == 1 && you == 0 or \
 #     com == 2 && you == 1:
