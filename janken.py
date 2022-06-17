@@ -7,3 +7,27 @@ you = 1
 if com == 0:
     if you == 0:
         result = "あいこ"
+    elif you == 1:
+        result = "負け"
+    elif you == 2:
+        result = "勝ち"
+elif com == 1:
+    if you == 0:
+        result = "勝ち"
+    elif you == 1:
+        result = "あいこ"
+    elif you == 2:
+        result = "負け"
+elif com == 2:
+    if you == 0:
+        result = "負け"
+    elif you == 1:
+        result = "勝ち"
+    elif you == 2:
+        result = "あいこ"
+        
+te = ["グー", "チョキ", "パー"]        
+        
+print(f"コンピュータ: + {te[com]}")
+print(f"あなた: + {te[com]}")
+print(f"あなたの{result}")
