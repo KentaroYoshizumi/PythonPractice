@@ -6,10 +6,14 @@ you = 1
 
 if com == you:
     result = "あいこ"
-elif com == 0 && you == 2　or \
-     com == 1 && you == 0 or \
-     com == 2 && you == 1:
+elif com == (you + 1) % 3:
     result = "勝ち"
+else:
+    result = "負け"
+#elif com == 0 && you == 2　or \
+#     com == 1 && you == 0 or \
+#     com == 2 && you == 1:
+#    result = "勝ち"
 #else:
 #    result = "負け"
 
