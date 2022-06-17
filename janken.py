@@ -9,21 +9,21 @@ if com == 0:
         result = "あいこ"
     elif you == 1:
         result = "負け"
-    elif you == 2:
+    else:
         result = "勝ち"
 elif com == 1:
     if you == 0:
         result = "勝ち"
     elif you == 1:
         result = "あいこ"
-    elif you == 2:
+    else:
         result = "負け"
 elif com == 2:
     if you == 0:
         result = "負け"
     elif you == 1:
         result = "勝ち"
-    elif you == 2:
+    else:
         result = "あいこ"
         
 te = ["グー", "チョキ", "パー"]        
