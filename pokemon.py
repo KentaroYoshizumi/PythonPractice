@@ -1,6 +1,6 @@
-class Pokemon():
+class Pokemon:
   
-  def __init__(self):
-        self.__name = "John"
-    pass
-    
+   def __init__(self, name, heart, attack):
+     self.name = name
+     self.heart = heart
+     self.attack = 
