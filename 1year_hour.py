@@ -6,7 +6,7 @@
 #print (hours)
 #print (minutes)
 #print (seconds)
-
+# -*- coding: utf-8 -*-
 from datetime import date,timedelta
  
 # 翌日を求める timedelta
