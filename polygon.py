@@ -7,7 +7,7 @@
 #    if 3 < N &&
 #        print("Yes")
 #    else:
-        print("No")
+#        print("No")
     
 #polygon()
 
