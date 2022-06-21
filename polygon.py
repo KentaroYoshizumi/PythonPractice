@@ -12,13 +12,14 @@
 #polygon()
 
 def polygon():
-    n = int(input())
-    a = list(map(int, input().split()))
-    newlist = sorted(a, reverse=True)
+    N = int(input("type a number:"))
+    L = list(map(int, input("type a number:").split()))
+    new_list = sorted(L, reverse=True)
     answer = "No"
 
-    if newlist[0] < sum(newlist[1:n]):
+    if new_list[0] < sum(new_list[1:N]):
         answer = "Yes"
     print(answer)
 
 polygon()
+
