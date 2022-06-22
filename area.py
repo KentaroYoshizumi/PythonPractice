@@ -1,6 +1,7 @@
 def area(a, b):
     result = a * b
     return result
+print(result)
 
-print(area(3, 4))
-print(area(10, 5))
+area(3, 4)
+area(10, 5)
