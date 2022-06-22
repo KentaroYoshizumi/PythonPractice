@@ -23,3 +23,19 @@ def polygon():
 
 polygon()
 
+
+#整数と配列の入力
+N = int(input())
+L = list(map(int, input().split()))
+
+#一番長い変を求める
+max_L = max(L)
+
+#一番長い辺を除いた合計を求める
+L.remove(max_L)
+sum_L = sum(L)
+
+if max_L < sum_L:
+    print("Yes")
+else:
+    print("No")
