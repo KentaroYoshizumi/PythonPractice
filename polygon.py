@@ -11,6 +11,9 @@
     
 #polygon()
 
+#リスト型のメソッドsort(): 元のリストをソート
+#組み込み関数sorted(): ソートした新たなリストを生成
+
 def polygon():
     N = int(input("type a number:"))
     L = list(map(int, input("type a number:").split()))
