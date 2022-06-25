@@ -7,3 +7,13 @@ if d / s >= 0.1:
     print("yes")
 else:
     print("no")
+
+    
+#d = int(input("歩いた距離"))
+#
+#s = int(input("歩幅"))
+#
+#if d * 100000 / s > 10000:
+#  print("yes")
+#else:
+#  print("no")
