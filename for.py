@@ -19,3 +19,9 @@ for i in range(1, 3):
     print(i)
     for letter in ["a", "b", "c"]:
         print(letter)
+
+#n回出力
+n = int(input())
+for i in range(n):
+    print("##########")
+    print("..........")
