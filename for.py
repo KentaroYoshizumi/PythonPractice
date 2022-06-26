@@ -25,3 +25,9 @@ n = int(input())
 for i in range(n):
     print("##########")
     print("..........")
+
+#n回整数を出力
+n = int(input())
+for i in range(n):
+    a_n = int(input())
+    print(a_n)
