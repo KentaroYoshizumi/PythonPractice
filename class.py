@@ -15,3 +15,11 @@ yoshizumi = Person('吉積', '日本', 30)
 mike = Person('mike', 'America', 13)
 
 print(mike.say_hello('佐藤'))
+
+
+
+#class Orange:
+#    def __init__(self, weight, color):
+#        self.weight = weight
+#        self.color = color
+#        print("Created!")
