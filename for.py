@@ -9,6 +9,15 @@ for i in range(1,10):
     s += i
 print(s)
 
+#配列を全て足す
+array = [1, 3, 5, 6, 3, 2, 5, 23, 2]
+result = 0
+
+for i in array:
+    result += i
+
+print(result)
+
 #文字列を１つずつ取り出す
 name = "Ted"
 for character in name:
