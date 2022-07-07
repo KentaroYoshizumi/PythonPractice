@@ -40,3 +40,15 @@ n = int(input())
 for i in range(n):
     a_n = int(input())
     print(a_n)
+    
+#5以上の整数を合計
+result = 0
+num = int(input())
+
+for i in range(num):
+    tmp = int(input())
+
+    if tmp >= 5:
+        result += tmp
+
+print(result)
