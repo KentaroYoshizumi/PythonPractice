@@ -52,3 +52,8 @@ for i in range(num):
         result += tmp
 
 print(result)
+
+#入力されたnの数だけ、nをそのまま表示
+num = int(input())
+for i in range(num):
+    print(input())
